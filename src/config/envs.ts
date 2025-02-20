@@ -6,6 +6,7 @@ interface EnvVars {
   NATS_SERVERS: string[];
 }
 
+
 const envsSchema = joi
   .object({
     PORT: joi.number().required(),
